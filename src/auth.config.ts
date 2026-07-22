@@ -68,8 +68,14 @@ export default {
         return user;
       },
     }), 
-    GitHub, 
-    Google
+    GitHub({
+      clientId: process.env.AUTH_GITHUB_ID || process.env.GITHUB_CLIENT_ID,
+      clientSecret: process.env.AUTH_GITHUB_SECRET || process.env.GITHUB_CLIENT_SECRET,
+    }),
+    Google({
+      clientId: process.env.AUTH_GOOGLE_ID || process.env.GOOGLE_CLIENT_ID,
+      clientSecret: process.env.AUTH_GOOGLE_SECRET || process.env.GOOGLE_CLIENT_SECRET,
+    }),
   ],
   pages: {
     signIn: "/sign-in",
