@@ -1,10 +1,13 @@
 # 🎨 Canva Clone - Full-Featured Graphic Design SaaS Platform
 
-<img width="5706" height="1806" alt="canva-clone" src="/canva-clone.png" />
+<img width="5706" height="1806" alt="canva-clone" src="/canva-clone (2).png" />
 
 A production-ready graphic design SaaS platform with an intuitive drag-and-drop editor, AI-powered features, and complete subscription management. Built with Next.js 14, Fabric.js canvas engine, Replicate AI, and Stripe payments.
 
 ---
+## DEMO
+https://canva-clone-two-gray.vercel.app/
+
 
 ## 🚀 Quick Start
 
